@@ -299,7 +299,7 @@ while flag:
 
                 else:
                     count = dictionary.get(request)
-                    print(count)
+
                     count = int(str(count)) + 1
                     dictionary[request] = count
                     if count <= 3:
